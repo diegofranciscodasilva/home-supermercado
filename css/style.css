@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.topodapagina {
+    background: url(../imgs/topo.jpg) center no-repeat;
+    width: 100%;
+    height: 198px;
+}
+
+.menuinicial {
+	width: 656px; 
+	margin-top: 155px; 
+	font-size: 14px; 
+	color: #ffffff; 
+	position: absolute; 
+	left: 50%; 
+	margin-left: -350px;
+}
+
+.menuinicial a {
+	text-decoration: none; 
+	color: #ffffff; 
+	font-weight: bold; 
+	padding: 1px;
+}
+
+.menuinicial a:hover {
+	color: #f9d32a;
+
+}
+
+.menuinicial a:visited {
+	text-decoration: none;
+}
+
+a.link {
+	width: 240px; 
+	height: 25px; 
+	display: block; 
+	position: absolute; 
+	left: 50%; 
+	margin-left: 240px;
+	margin-top: 60px;
+}
+
+.fundodapagina {
+    width: 100%;
+	background-image: url(../imgs/fundo.jpg);
+	height: 307px;
+}
+
+.ofertas {
+	width: 80%; 
+	margin-top: 50px; 
+	height: 330px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.ofertas h1 {
+	font-size: 24px;
+	color: #ed1c24;
+}
+
+.produtos, .maisofertas {
+    float: left; 
+	width: 200px; 
+	height: 100px; 
+	text-align: center; 
+	line-height: 20px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.produtos h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #465061;
+}
+
+.propaganda {
+    padding: 50px 0 50px 0;
+}
+
+.imagempropaganda {
+    display: inline;
+    padding: 600px;
+}
+
+.maisofertas {
+    margin-left: 650px;
+}
+
+.informacoesadicionais {
+    margin-left: 280px;
+}
+
+.footer {
+	width: 100%; 
+	height: 307px; 
+	background: url(../imgs/footer.jpg) center no-repeat; 
+	margin-top: 200px;
+}
+
+.menufinal {
+    width: 740px; 
+	left: 50%; 
+	margin-left: -450px; 
+	position: absolute; 
+	margin-top: 100px;
+    float: left; 
+	margin-right: 3px; 
+	font-size: 12px; 
+	line-height: 18px;
+	text-align: left;
+}
+
+.menufinal > a {
+    text-decoration: none; 
+	font-size: 12px;
+	color: #c0222a;
+}
+
+.menufinal > a:hover {
+	text-decoration:underline;
+}
+
+.menufinal > h2 {
+    float: left;
+    margin: 0; 
+	padding: 0px; 
+	font-size: 12px; 
+	color: #c0222a; 
+	font-weight: bold; 
+	margin-top: 50px;
+}
